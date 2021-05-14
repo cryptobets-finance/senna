@@ -2557,11 +2557,9 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background: #ff52bc -webkit-gradient(linear, left top, left bottom, from(#ff6cc6), to(#ff52bc)) repeat-x;
-  background: #ff52bc -webkit-linear-gradient(top, #ff6cc6, #ff52bc) repeat-x;
-  background: #ff52bc -o-linear-gradient(top, #ff6cc6, #ff52bc) repeat-x;
-  background: #ff52bc linear-gradient(180deg, #ff6cc6, #ff52bc) repeat-x;
-  border-color: #ff45b7;
+  background-color: #30a200;
+
+  border-color: #30a200;
 }
 
 .btn-primary:focus, .btn-primary.focus {
