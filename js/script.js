@@ -47,11 +47,11 @@ $(function () {
     var distChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: ["Pré-venda", "Venda oficial", "Administrativo", "Desenvolvedores"],
+            labels: ["Pré-venda", "Venda oficial", "Administrativo"],
             datasets: [{
                 label: "Token Distribution",
-                data: [100, 700, 100, 100],
-                backgroundColor: ["#665fff", "#f89c5a", "#d95af8", "#5aa5f8"],
+                data: [300, 650, 50],
+                backgroundColor: ["#665fff", "#f89c5a", "#d95af8"],
                 borderWidth: 0
             }]
         },
@@ -78,7 +78,7 @@ $(function () {
             labels: ["Marketing", "Despesas legais", "Despesas operacionais", "Despesas de TI"],
             datasets: [{
                 label: "Allocation of Funds",
-                data: [40, 20, 30, 10],
+                data: [20, 10, 10, 10],
                 backgroundColor: ["#51ffd0", "#f89c5a", "#ff5fae", "#8e51ff"],
                 borderWidth: 0
             }]
